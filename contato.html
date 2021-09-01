@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>SimuTech - Fale Conosco</title>
+
+        <meta name="description" content="">
+
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:image" content=""/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="shortcut icon" href="">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/grid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/contato.css">
+
+        <script>document.documentElement.classList.add("js");</script>
+    </head>
+
+    <body>
+        <!--Início do Cabeçalho-->
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="grid-3">
+                    <img src="img/simutech-logo.svg" alt="Logo SimuTech">
+                </a>
+
+                <nav class="grid-13 header_menu">
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="criadores.html">Criadores</a></li>
+                        <li><a href="contato.html" class="menu-ativo">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!--Título da Página-->
+
+        <section class="introducao">
+            <div class="container">
+                <h1 data-anime="400" class="fadeInDown">Fale Conosco</h1>
+                <p data-anime="800" class="fadeInDown">Envie-nos uma mensagem para saber mais sobre a ideia ou deixar sua sugestão!</p>
+            </div>
+        </section>
+
+        <!--Início do Formulário-->
+
+        <div class="contato container">
+            <form id="form_orcamento" data-anime="1200" class="contato_form grid-8 fadeInRight">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+            </form>
+
+            <div data-anime="1600" class="contato_dados grid-8 fadeInLeft">
+                <h2>Queremos te ouvir!</h2>
+                <p>É muito importante para nós ouvir você e saber o que podemos melhorar ou o que você gostou.</p>
+                <p>Nossa missão é buscar oferecer ao estudante as melhores oportunidades de estudo possíveis, oferecendo a melhor preparação possível!</p>
+            </div>
+        </div>
+
+        <!--Início do Rodapé-->
+        
+        <footer class="footer">
+            <div class="container">
+                <p class="grid-13">SimuTech 2021 - Todos os Direitos Reservados</p>
+
+                <div class="grid-3 redes-sociais">
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" alt="Facebook Logo"></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt="Instagram Logo"></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><img src="img/twitter.svg" alt="Twitter Logo"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!--JavaScript-->
+
+        <script src="./js/simple-anime.js"></script>
+        <script src="./js/script.js"></script>
+    </body>

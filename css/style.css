@@ -1,0 +1,186 @@
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.btn {
+    border: 3px solid #000;
+    padding: 20px 10px;
+    font-size: 18px;
+    color: #000;
+    line-height: 20px;
+    letter-spacing: .1em;
+}
+
+.btn:hover {
+    color: #498c9c;
+    border-color: #498c9c;
+    font-weight: bold;
+}
+
+.header_menu .menu-ativo {
+    color: #efefef;
+}
+
+/* Cabeçalho */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #79b9c9;
+    padding: 15px 0;
+    z-index: 100;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.header_menu ul li a {
+    color: #000;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+    color: #efefef;
+    transition: 0.3s;
+}
+
+/* Introdução */
+
+.introducao {
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.introducao h1 {
+    padding-top: 20px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.introducao h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #000;
+    margin: 0 auto;
+}
+
+.introducao p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.frase-introducao {
+    max-width: 800px;
+    font-size: 36px;
+    letter-spacing: .1em;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/* Conteúdo */
+
+.conteudo {
+    margin-bottom: 40px;
+}
+
+.conteudo img {
+    padding-bottom: 20px;
+}
+
+.conteudo ul li {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: .1em;
+    line-height: 60px;
+}
+
+.conteudo ul li:last-child {
+    padding-top: 20px;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.chamada {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.chamada h2 {
+    padding-bottom: 35px;
+    font-size: 36px;
+}
+
+/* Rodapé */
+
+.footer {
+    background-color: #002933;
+    clear: both;
+}
+
+.footer p {
+    padding-top: 42px;
+    color: #efefef;
+}
+
+.redes-sociais {
+    padding: 30px 0;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* JavaScript */
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+
+.js .fadeInUp {
+    transform: translate3d(0,20px,0);
+}
+
+.js .fadeInRight {
+    transform: translate3d(20px,0,0);
+}
+
+.js .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform .8s, opacity .8s;
+}

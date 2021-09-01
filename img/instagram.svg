@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="38" viewBox="0 0 40 38">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="40" height="38" transform="translate(1070 1421)" fill="#d9e0e6"/>
+    </clipPath>
+  </defs>
+  <g id="instagram" transform="translate(-1070 -1421)" clip-path="url(#clip-path)">
+    <g id="instagram-2" data-name="instagram" transform="translate(1071 1421)">
+      <path id="Path_6" data-name="Path 6" d="M24.663,10.11H13.337a3.282,3.282,0,0,0-3.279,3.279V24.714a3.283,3.283,0,0,0,3.279,3.279H24.663a3.283,3.283,0,0,0,3.279-3.279V13.388A3.282,3.282,0,0,0,24.663,10.11ZM19,24.938a5.887,5.887,0,1,1,5.887-5.887A5.894,5.894,0,0,1,19,24.938Zm6.076-10.557a1.393,1.393,0,1,1,1.393-1.393A1.395,1.395,0,0,1,25.076,14.382Z" fill="#6a453b"/>
+      <path id="Path_7" data-name="Path 7" d="M19,15.652a3.4,3.4,0,1,0,3.4,3.4A3.4,3.4,0,0,0,19,15.652Z" fill="#6a453b"/>
+      <path id="Path_8" data-name="Path 8" d="M19,0A19,19,0,1,0,38,19,19,19,0,0,0,19,0ZM30.429,24.714a5.772,5.772,0,0,1-5.766,5.766H13.337a5.772,5.772,0,0,1-5.766-5.766V13.388a5.773,5.773,0,0,1,5.766-5.766H24.663a5.772,5.772,0,0,1,5.766,5.766Z" fill="#6a453b"/>
+    </g>
+  </g>
+</svg>

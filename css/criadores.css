@@ -1,0 +1,38 @@
+.conteudo {
+    clear: left;
+}
+
+.criador {
+    margin-bottom: 60px;
+}
+
+.criador h2 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.criador h2::after {
+    content: "";
+    display: block;
+    width: 360px;
+    height: 3px;
+    background-color: #000;
+}
+
+.criador p {
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.edson-souza {
+    text-align: right;
+}
+
+.criador.edson-souza h2::after {
+    margin-left: auto;
+}
+
+.sociais {
+    display: inline-block;
+}
